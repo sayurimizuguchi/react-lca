@@ -21,11 +21,15 @@ For this tree, the lowest common ancestor for `2` and `6` is `9` because it is t
 2. The values in the tree are unique, so you don't need to worry about duplicates
 3. A `Node` DOES NOT have pointers to its parents. If you need to add other properties to aid with visualization you can do that, but the properties should not aid in finding the LCA
 
+## Other
+- Feel free to use `antd` or `material-design` for base components
+- you can use external libraries for rendering the tree, but visualizing the algorithm must be implemented by you
 
 ## Bonus
-This isn't a requirement, but feel free to get creative with the visualization. Add styling, css animations, w/e you want.
+Get creative with the visualization. Add styling, css animations, w/e you want.
 
-## Available Scripts
+
+# Available Scripts
 
 In the project directory, you can run:
 
