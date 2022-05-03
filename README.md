@@ -29,6 +29,9 @@ For this tree, the lowest common ancestor for `2` and `6` is `9` because it is t
 - Get creative with the visualization. Add styling, css animations, w/e you want.
 - Animate the search for the LCA. You could write your LCA algorithm in such a way that you can step through the iteration and visualize what node is being processed and what checks are being done at those steps
 
+## Example
+https://www.loom.com/share/68bfb8aa2f6641b0a2bc619c3fb4e704
+
 
 
 # Available Scripts
