@@ -1,6 +1,29 @@
-# Getting Started with Create React App
+# Visualizing "Find the Least Common Ancestor of a Binary Tree"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The goal of the project is to visualize an algorithm that you will implement to find the Least Common Ancestor (LCA) of a Binary Tree (NOTE: not a BST) when given a tree and two nodes in that tree. The least common ancestor is defined as the closest relative to both of those nodes. For example, assume we have the following tree:
+```
+     3
+    / \
+   9   7
+  / \   \
+ 2   6   4
+```
+For this tree, the lowest common ancestor for `2` and `6` is `9` because it is the closest relative to both of those. For `6` and `7` the answer is `3` because that is the closest relative.
+
+## Requirements
+1. The app should have an input field that allows us to input a binary tree as an array and convert it into the above tree structure. The method for doing this conversion is already defined in the `Node` file (feel free to implement your own, but you should be using the `Node` class as is without modification for this). It takes in an as input an array of the form `[3, 9, 7, 2, 6, null, 4]` which represents a level order traversal from left to right.
+2. The app should take a tree represented as a `Node` and visualize that tree similar to the output above (or however you wanna visualize it, get creative!)
+3. The app should take in two numbers as input and return the LCA of those two numbers in the tree
+4. The algorithm you write in step 3 should be use to visualize the iterations in the tree viz. eg. at each step, highlight or mark what you're currently processing and show how the algorithm finds the LCA
+
+## Assumptions
+1. The input is a Binary Tree, not a Binary Search Tree
+2. The values in the tree are unique, so you don't need to worry about duplicates
+3. A `Node` DOES NOT have pointers to its parents. If you need to add other properties to aid with visualization you can do that, but the properties should not aid in finding the LCA
+
+
+## Bonus
+This isn't a requirement, but feel free to get creative with the visualization. Add styling, css animations, w/e you want.
 
 ## Available Scripts
 
