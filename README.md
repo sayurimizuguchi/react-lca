@@ -23,11 +23,12 @@ For this tree, the lowest common ancestor for `2` and `6` is `9` because it is t
 
 ## Other
 - Feel free to use `antd` or `material-design` for base components
-- you can use external libraries for rendering the tree, but visualizing the algorithm must be implemented by you
+- you can use external libraries for rendering the tree, but if you do, you MUST implement the bonus item below which visualizes what your algorithm is doing on the tree itself
+  - the goal of this is to demonstrate your rockstar ability and it's hard to get signal on that if all the code is external libraries
 
 ## Bonus
 - Get creative with the visualization. Add styling, css animations, w/e you want.
-- Animate the search for the LCA. You could write your LCA algorithm in such a way that you can step through the iteration and visualize what node is being processed and what checks are being done at those steps
+- Animate the search for the LCA. You could write your LCA algorithm in such a way that you can step through the iteration and visualize what node is being processed and what checks are being done at those steps (see other above about using external libraries for rendering the tree)
 
 ## Example
 https://www.loom.com/share/68bfb8aa2f6641b0a2bc619c3fb4e704
