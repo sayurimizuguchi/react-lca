@@ -12,7 +12,7 @@ For this tree, the lowest common ancestor for `2` and `6` is `9` because it is t
 
 ## Requirements
 1. The app should have an input field that allows us to input a binary tree as an array and convert it into the above tree structure. The method for doing this conversion is already defined in the `Node` file (feel free to implement your own, but you should be using the `Node` class as is without modification for this). It takes in an as input an array of the form `[3, 9, 7, 2, 6, null, 4]` which represents a level order traversal from left to right.
-2. The app should take a tree represented as a `Node` and visualize that tree similar to the output above (or however you wanna visualize it, get creative!)
+2. The app should take `Node` parsed above and visualize that tree similarly to the tree above (or however you wanna visualize it, get creative!)
 3. The app should take in two numbers as input and return the LCA of those two numbers by visually marking the node in the tree
 4. Write up a short (1 page max) explaining your approach, what bugs and TODOs need to be addressed, and what a future iteration might look like
 
